@@ -1,0 +1,314 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='Acreboard is a management platform where customer voices are heard, analysed, answered, and turned into product or service improvements.')
+        meta(name='author', content='Acreboard')
+
+        title Acreboard
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css.pug
+
+    body.d-flex.flex-column.h-100
+
+        main.flex-shrink-0
+
+            // Navigation
+            include includes/navbar.pug
+
+            // Header
+            header.bg-light.py-5
+                .container.px-5
+                    .row.gx-5.justify-content-center
+                        .col-lg-6
+                            .text-center.my-5
+                                h1.display-5.fw-bolder.text-dark.mb-2 Bring your customers and team on the same board.
+                                p.lead.text-dark-50.mb-4 Efficient, easy-to-use, and affordable. 
+                                .d-grid.gap-3.d-sm-flex.justify-content-sm-center
+                                    a.btn.btn-primary.btn-lg.px-4.me-sm-3(href='#products') Get Started
+                                    a.btn.btn-outline-dark.btn-lg.px-4(href='what-is-software-as-a-service-saas.html') Learn More
+
+            // Product section
+            section#products.bg-light.py-5
+                .container.px-5.my-5
+                    .text-center.mb-5
+                        h1.fw-bolder Products and Services
+                        p.lead.fw-normal.text-muted.mb-0 Tailored for businesses of every scale, get started.
+                    .row.gx-5.justify-content-center
+                        // Product card 01
+                        .col-lg-6.col-xl-4
+                            .card.mb-5.mb-xl-5
+                                .card-body.p-5
+                                    .small.text-uppercase.fw-bold Knowledge management                              
+                                    .mb-3
+                                        span.display-6.fw-bold Notedown
+                                    ul.list-unstyled.mb-4
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            strong Document customer support.
+                                    .d-grid
+                                        a.btn.btn-outline-primary(href='what-is-knowledge-management.html') Learn more
+                        // Product card 02
+                        .col-lg-6.col-xl-4
+                            .card.mb-5.mb-xl-5
+                                .card-body.p-5
+                                    .small.text-uppercase.fw-bold Feedback management                             
+                                    .mb-3
+                                        span.display-6.fw-bold Captureview
+                                    ul.list-unstyled.mb-4
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            strong Gather feedback for teams.
+                                    .d-grid
+                                        a.btn.btn-outline-primary(href='what-is-feedback-management.html') Learn more
+                        // Product card 03
+                        .col-lg-6.col-xl-4
+                            .card.mb-5.mb-xl-5
+                                .card-body.p-5
+                                    .small.text-uppercase.fw-bold Debt finance management                              
+                                    .mb-3
+                                        span.display-6.fw-bold Fundware
+                                    ul.list-unstyled.mb-4
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            strong Managing capital, made easy.
+                                    .d-grid
+                                        a.btn.btn-outline-primary(href='what-is-debt-finance-management-system.html') Learn more
+                        // Product card 04
+                        .col-lg-6.col-xl-4
+                            .card.mb-5.mb-xl-5
+                                .card-body.p-5
+                                    .small.text-uppercase.fw-bold Point-of-sale (POS) system                              
+                                    .mb-3
+                                        span.display-6.fw-bold Deskmart
+                                    ul.list-unstyled.mb-4
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            strong Managing shop, made easy.
+                                    .d-grid
+                                        a.btn.btn-outline-primary(href='what-is-point-of-sales-pos.html') Learn more
+                        // Product card 05
+                        .col-lg-6.col-xl-4
+                            .card.mb-5.mb-xl-5
+                                .card-body.p-5
+                                    .small.text-uppercase.fw-bold QR code generator                            
+                                    .mb-3
+                                        span.display-6.fw-bold QRbase
+                                    ul.list-unstyled.mb-4
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            strong Onboard customers quickly.
+                                    .d-grid
+                                        a.btn.btn-outline-primary(href='what-is-qr-code.html') Learn more
+                        // Product card 06
+                        .col-lg-6.col-xl-4
+                            .card.mb-5.mb-xl-5
+                                .card-body.p-5
+                                    .small.text-uppercase.fw-bold Script Chatbot                              
+                                    .mb-3
+                                        span.display-6.fw-bold Speedchat
+                                    ul.list-unstyled.mb-4
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            strong Automate customer service.
+                                    .d-grid
+                                        a.btn.btn-outline-primary(href='what-is-chatbot.html') Learn more
+                        // Product card 07
+                        .col-lg-6.col-xl-4
+                            .card.mb-5.mb-xl-5
+                                .card-body.p-5
+                                    .small.text-uppercase.fw-bold Brand highlights and story                            
+                                    .mb-3
+                                        span.display-6.fw-bold Starhighlight
+                                    ul.list-unstyled.mb-4
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            strong Share brand highlights.
+                                    .d-grid
+                                        a.btn.btn-outline-primary(href='what-is-brand-highlight.html') Learn more
+                        // Product card 08
+                        .col-lg-6.col-xl-4
+                            .card.mb-5.mb-xl-5
+                                .card-body.p-5
+                                    .small.text-uppercase.fw-bold Static Ecommerce store                             
+                                    .mb-3
+                                        span.display-6.fw-bold Jumpstore
+                                    ul.list-unstyled.mb-4
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            strong Commerce made easy.
+                                    .d-grid
+                                        a.btn.btn-outline-primary(href='what-is-ecommerce.html') Learn more
+                        // Product card 09
+                        .col-lg-6.col-xl-4
+                            .card.mb-5.mb-xl-5
+                                .card-body.p-5
+                                    .small.text-uppercase.fw-bold Static Contact Form                             
+                                    .mb-3
+                                        span.display-6.fw-bold Powerform
+                                    ul.list-unstyled.mb-4
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            strong Gather leads anywhere.
+                                    .d-grid
+                                        a.btn.btn-outline-primary(href='what-is-a-contact-form.html') Learn more
+
+            // Steps section
+            .py-5.bg-light
+                .container.px-5.my-5
+                    .row.gx-5.justify-content-center
+                        .col-lg-10.col-xl-7
+                            .text-center
+                                .fs-4.mb-4.fst-italic Onboarding - Setup - Security - Support - Updates
+                                .d-flex.align-items-center.justify-content-center
+                                    .fw-bold
+                                        | Next step
+
+            // Set Apart section
+            section.py-5.border-bottom
+                .container.px-5.my-5.px-5
+                    .text-center.mb-5
+                        h2.fw-bolder What sets Acreboard apart?
+                        p.lead.mb-0 Our customers love working with us
+                    .row.gx-5.justify-content-center
+                        .col-lg-6
+                            // Set Apart 1
+                            .card.mb-4
+                                .card-body.p-4
+                                    .d-flex
+                                        .flex-shrink-0
+                                            i.bi.bi-asterisk.text-primary.fs-1
+                                        .ms-4
+                                            p.mb-1 Improve clarity and accountability.
+                                            p.mb-1 Get clarity and accountability by connecting strategic goals to the teams responsible for their achievement. Monitor real-time progress, provide updates to stakeholders, and ensure the company stays on course. 
+                            // Set Apart 2
+                            .card.mb-4
+                                .card-body.p-4
+                                    .d-flex
+                                        .flex-shrink-0
+                                            i.bi.bi-asterisk.text-primary.fs-1
+                                        .ms-4
+                                            p.mb-1 Increase operational efficiency.
+                                            p.mb-1 Boost operational efficiency by monitoring work and its real-time progress. Standardize and automate processes to streamline operations and remove obstacles. It enables teams to achieve revenue goals.
+                            // Set Apart 3
+                            .card.mb-4
+                                .card-body.p-4
+                                    .d-flex
+                                        .flex-shrink-0
+                                            i.bi.bi-asterisk.text-primary.fs-1
+                                        .ms-4
+                                            p.mb-1 Achieve organizational goals.
+                                            p.mb-1 Align tasks with company objectives and automate workflows spanning various departments. Provide progress reports while addressing any bottlenecks.
+                            // Set Apart 4
+                            .card.mb-4
+                                .card-body.p-4
+                                    .d-flex
+                                        .flex-shrink-0
+                                            i.bi.bi-asterisk.text-primary.fs-1
+                                        .ms-4
+                                            p.mb-1 Launch better products faster.
+                                            p.mb-1 Accelerate the release of superior products and maintain product development standards. Centralize launch information and align your product roadmap with your overall strategy. 
+                            // Set Apart 5
+                            .card.mb-4
+                                .card-body.p-4
+                                    .d-flex
+                                        .flex-shrink-0
+                                            i.bi.bi-asterisk.text-primary.fs-1
+                                        .ms-4
+                                            p.mb-1 Conduct IT processes securely.
+                                            p.mb-1 Efficiently streamline IT processes with a focus on security. Manage team onboarding and offboarding seamlessly. Automate and scale workflows, plus safeguard organization data through enterprise-grade security measures. 
+                            // Set Apart 6
+                            .card.mb-4
+                                .card-body.p-4
+                                    .d-flex
+                                        .flex-shrink-0
+                                            i.bi.bi-asterisk.text-primary.fs-1
+                                        .ms-4
+                                            p.mb-1 Meet campaign goals
+                                            p.mb-1 Achieve campaign objectives by optimizing campaign management and improving creative production. Effectively overseeing events and editorial calendars. 
+
+
+            // Built for teams section
+            .py-5.bg-light
+                .container.px-5.my-5
+                    .row.gx-5.justify-content-center
+                        .col-lg-10.col-xl-7
+                            .text-center
+                                .fs-4.mb-4.fst-italic Expanding your team doesn't have to mean increasing pain. With top-notch features, robust security, and privacy measures, Acreboard provides the ideal tools for every stage of your journey. The tools enable you to seamlessly scale without friction, irrespective of your company's size.
+                                .d-flex.align-items-center.justify-content-center
+                                    .fw-bold
+                                        | Built for teams
+
+            // Features section
+            section#features.py-5
+                .container.px-5.my-5
+                    .row.gx-5
+                        .col-lg-4.mb-5.mb-lg-0
+                            h2.fw-bolder.mb-0 Features that make your products better.
+                        .col-lg-8
+                            .row.gx-5.row-cols-1.row-cols-md-2
+                                .col.mb-5.h-100
+                                    h2.h5 Search
+                                    p.mb-0
+                                        | A search helps you quickly find anything. Do more with search.
+                                .col.mb-5.h-100
+                                    h2.h5 Storage
+                                    p.mb-0
+                                        | All your data is securely stored and available across all your devices.
+                                .col.mb-5.h-100
+                                    h2.h5 Password
+                                    p.mb-0
+                                        | Password-protect data that is primarily for your internal team.
+                                .col.mb-5.h-100
+                                    h2.h5 Privacy
+                                    p.mb-0
+                                        | Get enhanced privacy features that protect you and your data. 
+                                .col.mb-5.h-100
+                                    h2.h5 Share
+                                    p.mb-0
+                                        | Keep conversations flowing, and easily share them with your customers and teams.
+                                .col.mb-5.h-100
+                                    h2.h5 Language
+                                    p.mb-0
+                                        | Internationalize and support multiple languages.
+                                .col.mb-5.h-100
+                                    h2.h5 Analytics
+                                    p.mb-0
+                                        | Get customer insights right on your GA dashboard.
+                                .col.mb-5.h-100
+                                    h2.h5 Team-management
+                                    p.mb-0
+                                        | Optimize performance with team management support
+                             
+
+            // Switch section
+            section.py-5.border-bottom
+                .container.px-5.my-5.px-5
+                    .text-center.mb-5
+                        h2.fw-bolder Get started
+                        p.lead.mb-0 Looking to switch from another service?
+                    .row.gx-5.justify-content-center
+                        .col-lg-6
+                            // Set Apart 1
+                            .card.mb-4
+                                .card-body.p-4
+                                    .d-flex
+                                        .flex-shrink-0
+                                            i.bi.bi-arrow-left-right.text-primary.fs-1
+                                        .ms-4
+                                            p.mb-2 Don’t waste time writing customer support emails or on calls; rather, switch to Acreboard. 
+                                            p.mb-3 We make managing customer support more convenient for your organization. Get step-by-step customer management assistance from the Acreboard team.
+                                            p.mb-2 @ No credit card is required.
+                                            p.mb-3 @ Cancel anytime.
+                                            a.btn.btn-primary.btn-lg.px-4.me-sm-3(href='contact.html') Contact us  
+
+        // Footer
+        include includes/footer.pug
+
+        include includes/scripts.pug

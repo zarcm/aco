@@ -1,0 +1,102 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='Acreboard is a management platform where customer voices are heard, analysed, answered, and turned into product or service improvements.')
+        meta(name='author', content='Acreboard')
+
+        title Learn | Acreboard
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css.pug
+
+    body.d-flex.flex-column
+
+        main.flex-shrink-0
+
+            // Navigation
+            include includes/navbar.pug
+
+            // Learn Section
+            section.py-5.bg-light
+                .container.px-5
+                    .row.gx-5
+                        .col-xl-8
+                            h2.fw-bolder.fs-5.mb-4 Learn
+                            // Learn 01
+                            .mb-4
+                                .small.text-muted March, 2024
+                                a.link-dark(href='what-is-software-as-a-service-saas.html')
+                                    h3 What is Software As A Service (SaaS)?
+                            // Learn 02
+                            .mb-4
+                                .small.text-muted March, 2024
+                                a.link-dark(href='what-is-knowledge-management.html')
+                                    h3 What is Knowledge Management?
+                            // Learn 03
+                            .mb-4
+                                .small.text-muted March, 2024
+                                a.link-dark(href='what-is-feedback-management.html')
+                                    h3 What is Feedback Management?
+                            // Learn 04
+                            .mb-4
+                                .small.text-muted March, 2024
+                                a.link-dark(href='what-is-debt-finance-management-system.html')
+                                    h3 What is Debt Finance Management system?
+                            // Learn 05
+                            .mb-4
+                                .small.text-muted March, 2024
+                                a.link-dark(href='what-is-point-of-sales-pos.html')
+                                    h3 What is Point of Sales (PoS) system?
+                            // Learn 06
+                            .mb-4
+                                .small.text-muted March, 2024
+                                a.link-dark(href='what-is-qr-code.html')
+                                    h3 What is QR code?
+                            // Learn 07
+                            .mb-4
+                                .small.text-muted March, 2024
+                                a.link-dark(href='what-is-chatbot.html')
+                                    h3 What is Chatbot?
+                            // Learn 08
+                            .mb-4
+                                .small.text-muted March, 2024
+                                a.link-dark(href='what-is-brand-highlight.html')
+                                    h3 What is Brand Highlight?
+                            // Learn 09
+                            .mb-4
+                                .small.text-muted March, 2024
+                                a.link-dark(href='what-is-ecommerce.html')
+                                    h3 What is Ecommerce?            
+                            // Learn 09
+                            .mb-4
+                                .small.text-muted March, 2024
+                                a.link-dark(href='what-is-a-contact-form.html')
+                                    h3 What is a Contact Form?                                    
+
+                            // Back to home arrow button
+                            .text-end.mb-5.mb-xl-0
+                                a.text-decoration-none(href='index.html')
+                                    | Back to home 
+                                    i.bi.bi-arrow-right
+                        .col-xl-4
+                            .card.border-0.h-100
+                                .card-body.p-4
+                                    .d-flex.h-100.align-items-center.justify-content-center
+                                        .text-center
+                                            .h6.fw-bolder Contact
+                                            p.text-muted.mb-4
+                                                | For press inquiries, email us at
+                                                br
+                                                a(href='mailto:acreboard@outlook.com') acreboard@outlook.com
+
+        
+        // Footer
+        include includes/footer.pug
+
+        include includes/scripts.pug

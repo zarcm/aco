@@ -1,0 +1,97 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content)
+        meta(name='author', content)
+
+        title Contact - Acreboard
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css.pug
+
+    body.d-flex.flex-column
+
+        main.flex-shrink-0
+
+            // Navigation
+            include includes/navbar.pug
+
+            // Page content
+            section.py-5
+
+                .container.px-5
+
+                    // Contact form
+                    .bg-light.rounded-3.py-5.px-4.px-md-5.mb-5
+                        .text-center.mb-5
+                            .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
+                                i.bi.bi-envelope
+                            h1.fw-bolder Get in touch
+                            p.lead.fw-normal.text-muted.mb-0 We'd love to hear from you
+                        .row.gx-5.justify-content-center
+                            .col-lg-8.col-xl-6
+
+                                form(role='form' method='post' action='' name='singlewebsiteform')
+                                    
+                                    //Name input
+                                    .form-floating.mb-3
+                                        input#name.form-control(
+                                            type='text',
+                                            name='clientfullname', 
+                                            required='required',
+                                            placeholder='Enter your name...')
+                                        label(for='name') Full Name
+                                                                             
+                                    // Email address input
+                                    .form-floating.mb-3                                 
+                                        input#email.form-control(
+                                            type='email', 
+                                            name='clientemailaddress',
+                                            required='required',                                            
+                                            placeholder='name@example.com'
+                                            )
+                                        label(for='email') Email address 
+                                        
+                                    // Phone number input
+                                    .form-floating.mb-3
+                                        input#phone.form-control(
+                                            type='tel',
+                                            name='clientphonenumber',       
+                                            required='required',                                     
+                                            placeholder='(+91) 878-456-7890'
+                                        )
+                                        label(for='phone') Phone number
+                                                                            
+                                    // Submit Button
+                                    .d-grid
+                                        button.btn.btn-primary(type='submit', id='submit') Submit form
+
+            section.py-5.border-bottom
+                .container.px-5.my-5.px-5
+                    .text-center.mb-5
+                        h2.fw-bolder Your data is in safe hands
+                        p.lead.mb-0 We take data privacy seriously.  
+                    .row.gx-5.justify-content-center
+                        .col-lg-6
+                            // Set Apart 1
+                            .card.mb-4
+                                .card-body.p-4
+                                    .d-flex
+                                        .flex-shrink-0
+                                            i.bi.bi-shield-fill-check.text-primary.fs-1
+                                        .ms-4
+                                            p.mb-1 We'll get back to you within 1-3 working days. You can email us at acreboard@outlook.com. 
+                                            p.mb-1 @ No user data is shared with third-party companies. 
+                                            p.mb-1 @ No spam emails. 
+                                            p.mb-1 @ No spam calls.
+
+        // Footer
+        include includes/footer.pug
+
+        include includes/scripts.pug     

@@ -1,0 +1,61 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='Acreboard is a management platform where customer voices are heard, analysed, answered, and turned into product or service improvements.')
+        meta(name='author', content='Acreboard')
+
+        title About | Acreboard 
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css.pug
+
+    body.d-flex.flex-column
+
+        main.flex-shrink-0
+
+            // Navigation
+            include includes/navbar.pug
+
+            // Header
+            header.py-5
+                .container.px-5
+                    .row.justify-content-center
+                        .col-lg-8.col-xxl-6
+                            .text-center.my-5
+                                h1.fw-bolder.mb-3 What is Acreboard?
+                                p.lead.fw-normal.text-muted.mb-4 Acreboard is a management platform where customer voices are heard, analysed, answered, and turned into product or service improvements.
+                                a.btn.btn-primary.btn-lg(href='contact.html') Contact Us
+
+            // Automate support section
+            .py-5.bg-light
+                .container.px-5.my-5
+                    .row.gx-5.justify-content-center
+                        .col-lg-10.col-xl-7
+                            .text-center
+                                .fs-4.mb-4.fst-italic Often, customers demand prompt solutions. Acreboard helps you implement a self-service support centre on your official website. The support centre helps customers find answers without contacting an agent.
+                                .d-flex.align-items-center.justify-content-center
+                                    .fw-bold
+                                        | Automate the customer support flow and deliver solutions at your customers' fingertips.
+
+            // 24/7 section
+            .py-5.bg-light
+                .container.px-5.my-5
+                    .row.gx-5.justify-content-center
+                        .col-lg-10.col-xl-7
+                            .text-center
+                                .fs-4.mb-4.fst-italic You can seamlessly build and easily manage the organization’s customer base with Acreboard. A robust customer management suite helps agents and partners significantly reduce redundant efforts. It also improves resolution rates, and offers better customer experiences.
+                                .d-flex.align-items-center.justify-content-center
+                                    .fw-bold
+                                        | Deliver 24/7 support, cut down on request volume, and minimize costs.
+
+        // Footer
+        include includes/footer.pug
+
+        include includes/scripts.pug
+
